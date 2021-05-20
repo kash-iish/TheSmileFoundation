@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓THE SMILE FOUNDATION </title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- font-family: 'Noto Sans', sans-serif; -->
+    <link rel="stylesheet" href="index1.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="container" >
+            <div class="logo small_logo" id="logo">
+                <img src="logo.jpg" alt="Logo" width="50px" height="50px">
+                <h1>THE SMILE FOUNDATION</h1>
+            </div>
+            <div class="menu">
+                <a href="index1.html">🏫HOME</a>
+                <a href="about1.html">📃ABOUT</a>
+                <a href="contact1.html">🔗CONTACT</a>
+				<a href="feedback1.html">FEEDBACK</a>
+            </div>
+            <a href="#" class="iconbar" onclick="responsive_menu()"><i class="fas fa-bars"></i></a>
+        </div>
+    </header> 
+
+    <div class="sign-up-form">
+        <div class="content">
+        		
+            <h1>DONATE</h1>
+
+            <img src="child1.jpg">
+            
+            <h2>Great donaton is "education"</h2>   
+                         
+            <p>"Giving is not just about making a donation, it's about 
+            MAKING A DIFFERENCE"
+            </p>
+            
+            <form><script src= "https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H75RLTqIZCwlIq" async> </script> </form>
+
+        </div>
+    </div>
+
+</body>
+<script src="js/vanilla-tilt.js"></script>
+<script src="js/main.js"></script>
+
+<!--Tilt container-->
+<script>
+    VanillaTilt.init(document.querySelector(".content"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+	});
+</script>
+</html>
